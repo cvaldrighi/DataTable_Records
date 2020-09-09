@@ -1,0 +1,70 @@
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 34px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px; 
+}
+
+table {
+    border: 5px solid blueviolet;
+    font-size: 24px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table td {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 10px 5px;
+}
+
+table th {
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.sorting_desc {
+    background-image: url("arrow_down.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+     
+} 
+.sorting_asc {
+    background-image: url("arrowup.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    
+}
+.sorting {
+    min-width: 150px;
+   
+}
+
+.dataTables_wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
+}
+
+.paginate_button {
+    padding-right: 5px;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+.dataTables_filter {
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.dataTables_length {
+    float: right;
+    position: relative;
+    top: 10px;
+    }
